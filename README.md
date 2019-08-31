@@ -12,7 +12,7 @@
  <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.9.0/katex.min.js"></script>
 
 //summernote math js
-<script src="{{ asset('js/summernote_math.js') }}"></script>
+<script src="{{ asset('js/summernote_math.js') }}"></script> //download from repository & put in your project & call
 ```
 
 * implement
