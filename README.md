@@ -14,3 +14,22 @@
 //summernote math js
 <script src="{{ asset('js/summernote_math.js') }}"></script>
 ```
+
+* implement
+
+```
+//in your js code
+
+//your textarea 
+    $('#text-area-id').summernote({
+        placeholder: 'Question',
+        height: 200,
+        toolbar: [
+            ['style', ['bold', 'italic', 'underline', 'clear']],
+            ['font', ['strikethrough', 'superscript', 'subscript']],
+            ['fontsize', ['fontsize']],
+            ['para', ['ul', 'ol', 'paragraph']],
+            ['insert', ['table', 'hr', 'math']],
+          ]
+    });
+```
